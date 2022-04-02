@@ -1,13 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import TestComponent from 'components/TestComponent';
+
 import './App.css';
 
 function App() {
   const a = 1;
   const b = 2;
 
+  console.log(a, b);
+
   return (
     <div className="App">
+      <TestComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
